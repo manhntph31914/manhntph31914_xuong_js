@@ -1,0 +1,89 @@
+.product_detail {
+  display: flex;
+  float: left;
+}
+
+.product_detail .img {
+  width: 40%;
+}
+
+.product_detail .img img {
+  width: 100%;
+}
+
+.product_detail .info {
+  width: 60%;
+  box-sizing: border-box;
+  padding: 10px 10px 10px 20px;
+}
+
+.product_detail .info > * {
+  padding: 10px 0;
+}
+
+.product_detail .info h3 {
+  padding: 10px 0;
+}
+
+.product_detail .info .vote {
+  padding: 10px 0;
+}
+.product_detail .info .vote ul {
+  display: flex;
+  float: left;
+}
+
+.product_detail .info .vote ul > :not(:first-child) {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.product_detail .info .price p {
+  padding: 10px 0;
+  font-size: 20px;
+  color: #ee4d2d;
+}
+
+.product_detail .info .buy_number {
+  display: flex;
+  float: left;
+}
+
+.product_detail .info .buy_number button {
+  padding: 0 20px;
+}
+
+.product_detail .info .buy_number input {
+  width: 40px;
+  padding-left: 3px;
+}
+
+.product_detail .info .buy_number > :not(:first-child) {
+  margin-left: 10px;
+}
+
+.product_detail .info .buy_number p,
+.product_detail .info .buy_number i {
+  line-height: 50px;
+}
+
+.product_detail .info .add-buy {
+  display: flex;
+  float: left;
+}
+
+.product_detail .info .add-buy button {
+  padding: 10px 5px;
+  width: 200px;
+  border: none;
+}
+
+.product_detail .info .add-buy .add {
+  background-color: rgba(255, 197, 178, 0.181);
+  border: 1px solid #ee4d2d;
+}
+
+.product_detail .info .add-buy .buy {
+  background-color: #ee4d2d;
+  margin-left: 20px;
+}

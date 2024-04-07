@@ -1,0 +1,86 @@
+.container {
+  margin-top: 130px;
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+}
+
+section {
+  margin-top: 130px;
+}
+
+section .list-product {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+}
+
+section .list-product .product {
+  width: 25%;
+  box-sizing: border-box;
+
+  padding: 10px;
+  border: 1px solid #ccc;
+
+  flex: 0 1 calc(25% - 20px);
+  margin: 10px 10px;
+}
+
+section .list-product .product .info {
+  display: flex;
+  padding: 10px 0;
+}
+
+section .list-product .product .info h3,
+section .list-product .product .info i {
+  margin: auto;
+}
+
+section .list-product .product .xxx b {
+  margin-left: 40px;
+}
+
+section .list-product .product .img img {
+  width: 100%;
+}
+
+/* style cho slide show */
+section .slide {
+  width: 100%;
+  height: 210px;
+}
+
+section .slide .img {
+  width: 90%;
+  height: 200px;
+  margin-left: 5%;
+}
+
+section .slide .img img {
+  width: 100%;
+  max-height: 200px;
+}
+
+section .slide .control {
+  display: flex;
+}
+section .slide .control div {
+  margin: auto;
+}
+
+section .slide .control div button {
+  padding: 5px 10px;
+  background-color: #f65;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: #fff;
+}
+
+section .slide .control div button:hover {
+  opacity: 0.7;
+}

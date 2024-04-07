@@ -1,0 +1,21 @@
+/* .container {
+  display: flex;
+} */
+
+form {
+  width: 300px;
+  background-color: antiquewhite;
+
+  box-shadow: 5px 5px 5px #ee4d2d;
+  border: 1px solid #ee4d2d;
+  border-radius: 5px;
+  margin: auto;
+  padding: 20px 0px 20px 20px;
+}
+
+form input {
+  padding: 10px 8px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}

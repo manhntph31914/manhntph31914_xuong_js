@@ -1,0 +1,41 @@
+.container .add_product {
+  width: 150px;
+  height: 30px;
+  background-color: #ee4d2d;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container .add_product:hover,
+.container .add_product a:hover {
+  background-color: rgba(255, 197, 178, 0.181);
+  color: black;
+  border: 1px solid #ee4d2d;
+}
+
+.container .add_product a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  line-height: 30px;
+}
+
+.container table {
+  border-collapse: collapse;
+  padding: 10px;
+  width: 100%;
+}
+
+.container table tr:nth-child(2n + 1) {
+  background-color: #ccc;
+}
+
+.container table tr:nth-child(2n) {
+  background-color: rgba(255, 197, 178, 0.181);
+}
+
+.container table tr td,
+.container table tr th {
+  padding: 8px;
+}
